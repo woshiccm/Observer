@@ -115,4 +115,14 @@ class VariableTests: XCTestCase {
 
         XCTAssertEqual(string, "网络断开连接")
     }
+
+    func testChangeNilToNotNil() {
+        let expected: Int = 1
+        var actual: Int?
+        let sut = Variable<Int?>(nil)
+        let disposable = sut.subscribe { actual = $0 }
+        defer { disposable.dispose() }
+        sut.value = expected
+        XCTAssertEqual(actual, expected)
+    }
 }

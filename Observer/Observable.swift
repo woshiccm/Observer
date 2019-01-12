@@ -11,7 +11,7 @@ import Foundation
 class Observable<T>: ObservableType {
 
     internal private(set) var observers = Bag<(T) -> Void>()
-    private let lock = NSLock()
+    private let lock = NSRecursiveLock()
 
     public init() {  }
 

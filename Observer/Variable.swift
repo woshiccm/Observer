@@ -25,8 +25,6 @@ public class Variable<T>: ObservableType {
     }
 
     public func subscribe(_ observer: @escaping (T) -> Void) -> Disposable {
-        observer(value)
-
         return observable.subscribe(observer)
     }
 }
