@@ -124,9 +124,10 @@ let disposable = sut.subscribe {
 ## Installation
 
 #### Carthage
-Add the following line to your [Cartfile](https://github.com/carthage/carthage)
-```swift
-git "git@gitlab.fftech.info:dragon/consumer-app/PDFoundation.git" "develop"
+Add the following line to your [Cartfile](https://github.com/carthage/carthage)'
+
+```
+git "https://github.com/woshiccm/Observer.git" "master"
 ```
 
 
