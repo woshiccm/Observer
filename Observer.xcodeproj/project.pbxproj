@@ -19,6 +19,7 @@
 		9C17453721BA4BA9003D4334 /* VariableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17453621BA4BA9003D4334 /* VariableTests.swift */; };
 		9C17453921BA4BB7003D4334 /* ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17453821BA4BB7003D4334 /* ObservableTests.swift */; };
 		9C17453B21BA4BC2003D4334 /* DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C17453A21BA4BC2003D4334 /* DisposeBagTests.swift */; };
+		9CF3B3FF2205A22C007B51CB /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF3B3FE2205A22C007B51CB /* Lock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9C17453621BA4BA9003D4334 /* VariableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableTests.swift; sourceTree = "<group>"; };
 		9C17453821BA4BB7003D4334 /* ObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTests.swift; sourceTree = "<group>"; };
 		9C17453A21BA4BC2003D4334 /* DisposeBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBagTests.swift; sourceTree = "<group>"; };
+		9CF3B3FE2205A22C007B51CB /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				9C17452E21BA4AEB003D4334 /* DisposeBag.swift */,
 				9C17453021BA4AF9003D4334 /* Observable.swift */,
 				9C17453421BA4B60003D4334 /* ObservableType.swift */,
+				9CF3B3FE2205A22C007B51CB /* Lock.swift */,
 				9C17453221BA4B07003D4334 /* Variable.swift */,
 				9C17451121BA4AA0003D4334 /* Observer.h */,
 				9C17451221BA4AA0003D4334 /* Info.plist */,
@@ -228,6 +231,7 @@
 				9C17453121BA4AF9003D4334 /* Observable.swift in Sources */,
 				9C17452921BA4AC2003D4334 /* Bag.swift in Sources */,
 				9C17452D21BA4AE0003D4334 /* DisposableObserver.swift in Sources */,
+				9CF3B3FF2205A22C007B51CB /* Lock.swift in Sources */,
 				9C17452B21BA4AD2003D4334 /* Disposable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import Foundation
 
 public final class DisposeBag {
 
-    private var lock = NSLock()
+    private var lock = SpinLock()
     internal private(set) var disposables = Bag<Disposable>()
 
     private var isDisposed = false
